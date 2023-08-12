@@ -1,8 +1,9 @@
 import React from 'react'
+import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <>
+    <div className='navbar'>
     <ul className='nav-links'>
         <li><a href=''>Lookscout</a></li>
         <li><a href=''>Home</a></li>
@@ -12,7 +13,7 @@ const Navbar = () => {
         <button>Login</button>
         <button>SignUp</button>
     </ul>
-    </>
+    </div>
   )
 }
 

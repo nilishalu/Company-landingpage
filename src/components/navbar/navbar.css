@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #437EF7;
+    margin-top: -16px;
+    /* padding: 20px 160px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-links {
+   list-style: none;
+   display: flex;
+}
+
+.nav-links li a {
+   text-decoration: none;
+   color: white;
+}
+
+.nav-links li {
+    font-size: 15px;
+    margin-right: 32px;
+}
