@@ -1,8 +1,15 @@
 import './App.css';
+import Home from './components/home/Home';
+import Navbar from './components/navbar/Navbar';
+import FeatureMessage from './components/featureMessage/FeatureMessage';
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <>
+    <Navbar />
+    <Home />
+    <FeatureMessage />
+    </>
   );
 }
 
