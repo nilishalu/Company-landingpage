@@ -6,3 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.container {
+  min-height: 100vh;
+}
+
+.center {
+  text-align: center;
+}

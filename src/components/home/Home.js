@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const Home = () => {
   return (
-    <>
+    <div className='container'>
     <div className='hero-left'>
         <div className='header'>
           <h1>Your Supercharged Design Workflow.</h1>
@@ -13,7 +13,7 @@ const Home = () => {
         <p>Who supports us</p>
         </div>
     </div>
-    </>
+    </div>
   )
 }
 

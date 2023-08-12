@@ -1,0 +1,21 @@
+.features {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  margin: 32px;
+  width: 384px;
+}
+
+.features a {
+  color: #437ef7;
+}
+
+.title {
+  color: #272d37;
+}
+
+.desc {
+    color: #5F6D7E;
+}

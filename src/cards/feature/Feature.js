@@ -1,17 +1,15 @@
-import React from 'react'
+import React from 'react';
+import "./feature.css";
 
 const Feature = (data) => {
     const features = data.props;
     return (
-        <div>
-            <h1>Hello</h1>
-            <h2>{features.length}</h2>
-        
+        <div className='features'>        
             {features.map((feature, index) => (
-                <div key={index}>
+                <div key={index} className='feature'>
                     <img src={feature.logoLink} alt='Logo' width={"60px"}></img>
-                    <h3>{feature.title}</h3>
-                    <p>{feature.desc}</p>
+                    <h3 className='title'>{feature.title}</h3>
+                    <p className='desc'>{feature.desc}</p>
                     <a href={feature.moreInfo}>Learn more</a>
                 </div>
             ))};
