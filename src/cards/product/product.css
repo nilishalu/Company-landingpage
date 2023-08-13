@@ -22,3 +22,19 @@
 .product-feature .info {
     margin-top: -24px;
 }
+
+.title-light {
+    color: #272d37;
+  }
+  
+.desc-light {
+    color: #5f6d7e;
+ }
+
+ .title-dark {
+    color: #F9F9F9;
+  }
+  
+.desc-dark {
+    color: #A5ACBA;
+ }
