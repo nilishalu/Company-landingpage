@@ -1,0 +1,24 @@
+.product-features {
+    margin-top: 132px;
+}
+  
+.product-feature {
+    margin-bottom: 32px;
+    width: 460px;
+    display: flex;
+}
+
+.product-features a {
+    color: #437ef7;
+    text-decoration: none;
+}
+
+.product-features img {
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+}
+
+.product-feature .info {
+    margin-top: -24px;
+}
