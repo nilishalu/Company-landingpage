@@ -1,17 +1,21 @@
 import React from 'react';
+import "./home.css";
 
 const Home = () => {
   return (
-    <div className='container'>
+    <div className='container hero'>
     <div className='hero-left'>
         <div className='header'>
           <h1>Your Supercharged Design Workflow.</h1>
           <h3>We’ve been told it is not possible to overachieve our customers’ expectations. We have not reinvented the wheel, we decided to build upon it.</h3>
-          <button>Get Started</button>
+          <button className='enter'>Get Started</button>
         </div>
         <div className='supporters'>
-        <p>Who supports us</p>
+        <p className='partners-header'>Who supports us</p>
         </div>
+    </div>
+    <div className='hero-right'>
+    
     </div>
     </div>
   )

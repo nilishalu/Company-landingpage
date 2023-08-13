@@ -1,8 +1,9 @@
 .navbar {
-    background-color: #437EF7;
+    background-color: #3971E7;
     /* margin-top: -16px; */
     padding: 20px 160px;
     display: flex;
+    border-bottom: 2px solid #648EF7;
 }
 
 .navbar a {
