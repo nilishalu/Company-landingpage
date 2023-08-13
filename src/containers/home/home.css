@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-around;
     gap: 32px;
-    padding: 0px 160px;
 }
 
 .hero-left {

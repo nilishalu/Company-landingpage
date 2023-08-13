@@ -9,8 +9,21 @@ body {
 
 .container {
   max-height: 100vh;
+  padding: 32px 160px;
 }
 
 .center {
   text-align: center;
+}
+
+.header {
+  color: #272d37;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.64px;
+}
+
+.sub-header {
+  color: #5f6d7e;
 }
