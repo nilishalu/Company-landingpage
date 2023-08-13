@@ -1,22 +1,40 @@
 .navbar {
     background-color: #437EF7;
-    margin-top: -16px;
-    /* padding: 20px 160px; */
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /* margin-top: -16px; */
+    padding: 20px 160px;
+    display: flex;
 }
 
-.nav-links {
-   list-style: none;
-   display: flex;
-}
-
-.nav-links li a {
-   text-decoration: none;
-   color: white;
-}
-
-.nav-links li {
+.navbar a {
+    text-decoration: none;
+    color: white;
     font-size: 15px;
+    font-weight: 600;
+    margin-left: 32px;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 160px;
     margin-right: 32px;
+}
+
+.login {
+    margin-left: 422px;
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background: none;
+}
+
+.signup {
+    color: white;
+    margin-left: 24px;
+    padding: 12px 18px;
+    background-color: #648EF7;
+    border: 1px solid #648EF7;
+    font-size: 15px;
+    font-weight: 600;
 }
