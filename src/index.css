@@ -27,3 +27,12 @@ body {
 .sub-header {
   color: #5f6d7e;
 }
+
+.subheader-higher {
+  color :#272D37;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px; /* 135.714% */
+  letter-spacing: -0.28px;
+}

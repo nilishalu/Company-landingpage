@@ -3,6 +3,7 @@ import Home from './containers/home/Home';
 import Navbar from './components/navbar/Navbar';
 import FeatureMessage from './containers/featureMessage/FeatureMessage';
 import ProductFeatures from './containers/productFeatures/ProductFeatures';
+import CEOMessage from './containers/ceoMessage/CEOMessage';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Home />
     <FeatureMessage />
     <ProductFeatures />
+    <CEOMessage />
     </>
   );
 }
