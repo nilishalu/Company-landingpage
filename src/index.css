@@ -23,12 +23,13 @@ body {
   font-size: 32px;
   line-height: 40px;
   letter-spacing: -0.64px;
-  width: 800px;
+  max-width: 800px;
 }
 
 .sub-header {
   color: #5f6d7e;
-  width: 800px;
+  max-width: 800px;
+  margin-top: 16px;
 }
 
 .subheader-higher {

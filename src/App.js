@@ -5,6 +5,7 @@ import FeatureMessage from './containers/featureMessage/FeatureMessage';
 import ProductFeatures from './containers/productFeatures/ProductFeatures';
 import CEOMessage from './containers/ceoMessage/CEOMessage';
 import Blogs from './containers/blogs/Blogs';
+import Clients from './containers/clients/Clients';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <ProductFeatures />
     <CEOMessage />
     <Blogs />
+    <Clients />
     </>
   );
 }
