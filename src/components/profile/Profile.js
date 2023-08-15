@@ -2,6 +2,7 @@ import React from 'react';
 import "./profile.css";
 
 const Profile = (data) => {
+  console.log(data)
   return (
     <div className='profile'>
       <img src = {data.src} />

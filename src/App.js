@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import FeatureMessage from './containers/featureMessage/FeatureMessage';
 import ProductFeatures from './containers/productFeatures/ProductFeatures';
 import CEOMessage from './containers/ceoMessage/CEOMessage';
+import Blogs from './containers/blogs/Blogs';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <FeatureMessage />
     <ProductFeatures />
     <CEOMessage />
+    <Blogs />
     </>
   );
 }

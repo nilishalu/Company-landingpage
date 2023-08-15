@@ -1,0 +1,21 @@
+.blogs {
+    display: flex;
+    margin-top: 64px;
+    gap: 32px;
+}
+
+.blogs title {
+    color: #272D37;
+}
+
+.blogs .descr {
+    color: #5F6D7E;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.blogs .author {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
