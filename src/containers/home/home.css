@@ -6,7 +6,6 @@
 }
 
 .hero-left {
-    flex-basis: 50%;
     margin-top: 48px;
 }
 
@@ -20,7 +19,6 @@
 
 .hero-left h3 {
     color:  #B1CCFB;
-    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px; 
@@ -36,13 +34,11 @@
     background-color: #437EF7;
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
     color: #FFF;
-    font-size: 15px;
     font-weight: 600;
     line-height: 22px;          
 }
 
 .partners-header {
-    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
@@ -56,6 +52,25 @@
 }
 
 .hero-right img {
-    padding: 100px;
+    padding: 80px;
 }
 
+@media (min-width: 425px) and (max-width: 1500px) {
+    .hero-left h1 {
+        font-size: 42px;
+    }
+
+    .hero-right img {
+        padding: 30px;
+    }
+}
+ 
+ @media (min-width: 0px) and (max-width: 425px) {
+    .hero-left h1 {
+        font-size: 36px;
+    }
+
+    .hero-right img {
+        padding: 20px;
+    }
+ }

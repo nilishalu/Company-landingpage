@@ -12,5 +12,22 @@
 
 .featuring .photo {
     width: 560px;
-    height: auto;
 }
+
+@media (min-width: 425px) and (max-width: 1500px) {
+    .featuring .photo {
+        width: 420px;
+    }
+    .featuring {
+        gap: 40px;
+    }
+ }
+ 
+ @media (min-width: 0px) and (max-width: 425px) {
+    .featuring .photo {
+        width: 100%;
+    }
+    .featuring {
+        gap: 20px;
+    }
+ }

@@ -14,4 +14,4 @@ const Profile = (data) => {
   )
 }
 
-export default Profile
+export default Profile;

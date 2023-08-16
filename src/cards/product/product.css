@@ -38,3 +38,15 @@
 .desc-dark {
     color: #A5ACBA;
  }
+
+ @media (min-width: 425px) and (max-width: 500px) {
+    .product-feature {
+       width: 400px;
+    }
+ }
+ 
+ @media (min-width: 0px) and (max-width: 425px) {
+    .product-feature {
+        width: 100%;
+     }
+ }
