@@ -4,6 +4,7 @@
     display: flex;
     border-bottom: 2px solid #648EF7;
     max-width: 100%;
+    justify-content: center;
 }
 
 .navbar a {

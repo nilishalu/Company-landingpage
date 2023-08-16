@@ -1,9 +1,8 @@
 .hero {
     background-color: #3971E7;
     display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-around;
-    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .hero-left {
@@ -53,7 +52,10 @@
 }
 
 .hero-right {
-    flex-basis: 50%;
     margin-top: 48px;
+}
+
+.hero-right img {
+    padding: 100px;
 }
 

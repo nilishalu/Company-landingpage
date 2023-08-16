@@ -1,14 +1,13 @@
 .features {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   margin-top: 64px;
   gap: 32px;
+  justify-content: center;
 }
 
 .feature {
   width: 362px;
-  margin-bottom: 32px;
 }
 
 .features a {
@@ -31,4 +30,18 @@
   width: 32px;
   height: 32px;
   align-items: center;
+}
+
+@media (min-width: 425px) and (max-width: 1300px) {
+  .features {
+    gap: 22px;
+  }
+
+  .feature {
+    width: 300px;
+  }
+
+  .header {
+   max-width: 704px;
+  }
 }

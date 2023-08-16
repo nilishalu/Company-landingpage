@@ -21,7 +21,7 @@ const Home = () => {
         </div>
     </div>
     <div className='hero-right'>
-    
+     <img src='/hero.png'/>
     </div>
     </div>
   )

@@ -2,7 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 64px;
-    gap: 23px;
+    justify-content: center;
+    gap: 22px;
 }
 
 .blog {

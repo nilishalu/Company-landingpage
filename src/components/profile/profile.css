@@ -3,7 +3,7 @@
     align-items: center;
 }
 
-.desc {
+.profile .desc {
     display:inline-flex;
     flex-direction: column;
     align-items: flex-start;
