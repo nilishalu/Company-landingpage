@@ -22,6 +22,12 @@ body {
    }
 }
 
+@media (min-width: 0px) and (max-width: 425px) {
+    .container {
+      padding: 20px 32px;
+    }
+}
+
 .center {
   margin: 0 auto;
   text-align: center;
@@ -30,7 +36,6 @@ body {
 .header {
   color: #272d37;
   font-weight: 700;
-  font-size: 32px;
   line-height: 40px;
   letter-spacing: -0.64px;
   max-width: 800px;
@@ -55,4 +60,6 @@ body {
   margin-top: 64px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
 }

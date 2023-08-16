@@ -5,6 +5,7 @@
 
 .footer-row {
     display: flex;
+    flex-wrap: wrap;
     gap: 80px;
 }
 
@@ -46,4 +47,8 @@
 
 .footer li, p {
     color: #A5ACBA;
+}
+
+@media (min-width: 425px) and (max-width: 1300px) {
+    
 }
