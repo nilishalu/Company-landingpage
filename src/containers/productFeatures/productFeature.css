@@ -1,5 +1,6 @@
 .featuring {
     display: flex;
+    flex-wrap: wrap;
     gap: 124px;
     margin-top: 64px;
 }
