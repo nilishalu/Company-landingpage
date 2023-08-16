@@ -1,28 +1,20 @@
 .navbar {
     background-color: #3971E7;
-    padding: 20px 160px;
+    padding: 32px 160px;
     display: flex;
     border-bottom: 2px solid #648EF7;
     max-width: 100%;
     justify-content: center;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    font-weight: 600;
-    margin-left: 32px;
-    margin-top: 10px;
-}
+    overflow: hidden;
+} 
 
 .logo {
     width: 160px;
     margin-right: 32px;
-}
+} 
 
 .login {
-    margin-left: 422px;
+    /* margin-left: 422px; */
     line-height: 22px;
     font-size: 15px;
     font-weight: 600;
@@ -40,14 +32,97 @@
     font-size: 15px;
     font-weight: 600;
 }
+  
+  .navbar-toggle {
+    display: none; /* Initially hide the toggle button */
+  }
+  
+  .toggle-icon {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 6px auto;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 32px;
+    align-items: center;
+  }
 
-@media (min-width: 425px) and (max-width: 1150px) {
-    .navbar {
-     padding: 16px 32px; 
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .navbar .middle {
+    margin-right: 300px;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-list {
+      display: none; 
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .navbar-toggle {
+      display: block; 
+      margin: 10px;
+      border: 1px solid white;
+      height: 20px;
+      background-color: transparent;
+      cursor: pointer;
+    }
+  
+    .navbar-toggle.active + .nav-list {
+      display: flex; 
+    }
+  
+    .logo {
+        height: 80px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1300px) {
+    .navbar .middle {
+        margin-right: 60px;
+      }
+
+    .nav-list {
+        gap: 12px;
+    }
+ }
+ 
+ @media (min-width: 0px) and (max-width: 768px) {
+    .navbar .middle {
+        margin-right: 0px;
+      }
+
+    .logo {
+       width: 120px;
+       height: 70px;
     }
 
-    .login {
-        margin-left: 10px;
-    }
-}
+    .navbar li a {
+        font-size: 12px;
+        font-weight: 600;
+      }
 
+    .navbar button {
+        font-size: 12px;
+    }
+
+    .signup {
+        margin-left: 0px;
+        padding: 12px 18px;
+    }
+ }
+  
