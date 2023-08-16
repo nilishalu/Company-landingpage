@@ -9,7 +9,7 @@ body {
 
 .container {
   max-height: 100vh;
-  padding: 32px 160px;
+  padding: 64px 160px;
 }
 
 .center {
@@ -39,4 +39,10 @@ body {
   font-weight: 500;
   line-height: 38px; /* 135.714% */
   letter-spacing: -0.28px;
+}
+
+.clients {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-around;
 }

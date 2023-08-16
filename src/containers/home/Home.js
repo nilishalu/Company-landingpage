@@ -12,6 +12,12 @@ const Home = () => {
         </div>
         <div className='supporters'>
         <p className='partners-header'>Who supports us</p>
+        <div>
+          <img src='/gitlab.png'/>
+          <img src='/slack.png'/>
+          <img src='/netflix.png'/>
+          <img src='/paypal.png'/>
+        </div>
         </div>
     </div>
     <div className='hero-right'>

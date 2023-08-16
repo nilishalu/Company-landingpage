@@ -15,12 +15,12 @@ const ProductFeatures = () => {
       <p className='center sub-header'>Keeping your eye on the ball while performing a deep dive on the start-up mentality to  derive convergence on cross-platform integration.</p>
        <div className='featuring'>
        <Product data = {productFeature} theme = {lightTheme}/>
-       <Product data = {productFeature}/>
+       <img src='/photo.png' className='photo'/>
        </div>
     </div>
     <div className='container page-second'>
     <div className='featuring'>
-       <Product data = {productFeature}/>
+    <img src='/photo1.png' className='photo'/>
        <Product data = {productFeature} theme = {darkTheme}/>
        </div>
     </div>
