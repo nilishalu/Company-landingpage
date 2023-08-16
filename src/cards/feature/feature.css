@@ -23,3 +23,12 @@
 .desc {
   color: #5f6d7e;
 }
+
+.icon {
+  background-color: #437EF7;
+  padding: 8px;
+  border-radius: 30px;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+}
