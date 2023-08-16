@@ -7,7 +7,7 @@ const Blog = (props) => {
   return (
     <div className='blogs'>        
             {blogs.map((blog, index) => (
-                <div key={index} className=''>
+                <div key={index} className='blog'>
                     <img src={blog.image} />
                     <h2 className='title'>{blog.title}</h2>
                     <p className='descr'>{blog.desc}</p>

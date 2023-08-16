@@ -1,9 +1,13 @@
 .blogs {
     display: flex;
-    /* flex-wrap: wrap; */
-    width: 100%;
+    flex-wrap: wrap;
     margin-top: 64px;
-    gap: 32px;
+    gap: 23px;
+}
+
+.blog {
+    /* flex: 1; */
+    max-width: 384px;
 }
 
 .blogs title {
