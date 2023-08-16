@@ -1,6 +1,7 @@
 .hero {
     background-color: #3971E7;
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
     gap: 32px;
 }

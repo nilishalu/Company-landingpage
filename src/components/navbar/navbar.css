@@ -3,7 +3,6 @@
     padding: 20px 160px;
     display: flex;
     border-bottom: 2px solid #648EF7;
-    width: 100%;
 }
 
 .navbar a {
@@ -40,7 +39,7 @@
     font-weight: 600;
 }
 
-@media (min-width: 425px) and (max-width: 1200px) {
+/* @media (min-width: 425px) and (max-width: 1100px) {
     .navbar {
      padding: 16px 32px; 
     }
@@ -48,5 +47,5 @@
     .login {
         margin-left: 10px;
     }
-}
+} */
 
