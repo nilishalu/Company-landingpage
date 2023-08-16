@@ -7,6 +7,7 @@ import CEOMessage from './containers/ceoMessage/CEOMessage';
 import Blogs from './containers/blogs/Blogs';
 import Clients from './containers/clients/Clients';
 import Signup from './containers/signup/Signup';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
     <Blogs />
     <Clients />
     <Signup />
+    <Footer />
     </>
   );
 }
